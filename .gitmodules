@@ -1,0 +1,3 @@
+[submodule "OurExcelTests/lib/googletest"]
+	path = OurExcelTests/lib/googletest
+	url = https://github.com/google/googletest.git
