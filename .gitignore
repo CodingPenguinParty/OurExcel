@@ -33,3 +33,4 @@
 
 # IDE specific files
 cmake-build-debug/
+.idea/
