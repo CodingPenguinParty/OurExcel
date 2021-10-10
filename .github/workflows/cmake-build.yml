@@ -1,0 +1,22 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-and-test:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v2
+      with:
+          submodules: true
+
+    - name: Configure (Release)
+      run: cmake -S . -Bbuild -DCMAKE_BUILD_TYPE=Release
+
+    - name: Build
+      run: cmake --build build
