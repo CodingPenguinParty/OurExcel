@@ -1,5 +1,9 @@
 # Our Excel
 
+[![Build](https://github.com/CodingPenguinParty/OurExcel/actions/workflows/cmake-build.yml/badge.svg)](https://github.com/CodingPenguinParty/OurExcel/actions/workflows/cmake-build.yml)
+
+## Задание
+
 Задан CSV-файл (comma-separated values) с заголовком, в котором перечислены названия столбцов. Строки нумеруются положительными числами, необязательно в порядке возрастания. В ячейках CSV-файла могут хранится или целые неотрицательные числа или выражения вида
 = ARG1 OP ARG2
 где ARG1 и ARG2 - адреса ячеек в формате Имя_колонки Номер_строки, а OP – арифметическая операция из списка: +, -, *, /.
